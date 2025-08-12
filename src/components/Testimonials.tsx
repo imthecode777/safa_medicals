@@ -15,7 +15,7 @@ const testimonials: TestimonialProps[] = [
     author: "Ramesh Kumar",
     role: "Comman Customer",
     gradient: "from-blue-700 via-indigo-800 to-purple-900",
-    backgroundImage: "/background-section1.png",
+    backgroundImage: "./background-section1.png",
   },
   {
     content:
@@ -23,7 +23,7 @@ const testimonials: TestimonialProps[] = [
     author: "Rahila Siddiqui",
     role: "Regular Customer",
     gradient: "from-indigo-900 via-purple-800 to-orange-500",
-    backgroundImage: "/background-section2.png",
+    backgroundImage: "./background-section2.png",
   },
   {
     content:
@@ -31,7 +31,7 @@ const testimonials: TestimonialProps[] = [
     author: "Fahad Siraj",
     role: "Comman Customer",
     gradient: "from-purple-800 via-pink-700 to-red-500",
-    backgroundImage: "/background-section3.png",
+    backgroundImage: "./background-section3.png",
   },
   {
     content:
@@ -39,7 +39,7 @@ const testimonials: TestimonialProps[] = [
     author: "Aaliya Navas",
     role: "Regular Customer",
     gradient: "from-orange-600 via-red-500 to-purple-600",
-    backgroundImage: "/background-section1.png",
+    backgroundImage: "./background-section1.png",
   },
 ];
 
@@ -47,7 +47,7 @@ const TestimonialCard = ({
   content,
   author,
   role,
-  backgroundImage = "/background-section1.png",
+  backgroundImage = "./background-section1.png",
 }: TestimonialProps) => {
   return (
     <div

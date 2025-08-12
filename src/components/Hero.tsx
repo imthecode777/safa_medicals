@@ -90,7 +90,7 @@ const Hero = () => {
       className="overflow-hidden relative bg-cover"
       id="hero"
       style={{
-        backgroundImage: 'url("/Header-background.webp")',
+        backgroundImage: 'url("./Header-background.webp")',
         backgroundPosition: "center 30%",
         padding: isMobile ? "100px 12px 40px" : "120px 20px 60px",
       }}

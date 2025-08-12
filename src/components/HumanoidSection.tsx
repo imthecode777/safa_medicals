@@ -133,7 +133,7 @@ const HumanoidSection = () => {
               <div
                 className="absolute inset-0 z-0 bg-gradient-to-b from-pulse-900/40 to-dark-900/80"
                 style={{
-                  backgroundImage: "url('/background-section1.png')",
+                  backgroundImage: "url('./background-section1.png')",
                   backgroundSize: "cover",
                   backgroundPosition: "top center",
                   backgroundBlendMode: "overlay",
@@ -178,7 +178,7 @@ const HumanoidSection = () => {
               <div
                 className="absolute inset-0 z-0 bg-gradient-to-b from-pulse-900/40 to-dark-900/80"
                 style={{
-                  backgroundImage: "url('/background-section2.png')",
+                  backgroundImage: "url('./background-section2.png')",
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                   backgroundBlendMode: "overlay",
@@ -223,7 +223,7 @@ const HumanoidSection = () => {
               <div
                 className="absolute inset-0 z-0 bg-gradient-to-b from-pulse-900/40 to-dark-900/80"
                 style={{
-                  backgroundImage: "url('/background-section3.png')",
+                  backgroundImage: "url('./background-section3.png')",
                   backgroundSize: "cover",
                   backgroundPosition: "bottom center",
                   backgroundBlendMode: "overlay",
