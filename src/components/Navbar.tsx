@@ -55,7 +55,7 @@ const Navbar = () => {
           aria-label="Safa Medicals"
         >
           <img 
-            src="/logo.svg" 
+            src="./logo.svg" 
             alt="Safa Medicals logo" 
             className="h-10 sm:h-11" 
           />
