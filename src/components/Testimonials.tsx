@@ -13,7 +13,7 @@ const testimonials: TestimonialProps[] = [
     content:
       "Safa Medicals gives me my medicines on time at a good price, with friendly staff who explain clearly.",
     author: "Ramesh Kumar",
-    role: "Comman Customer",
+    role: "Common Customer",
     gradient: "from-blue-700 via-indigo-800 to-purple-900",
     backgroundImage: "./background-section1.png",
   },
@@ -29,7 +29,7 @@ const testimonials: TestimonialProps[] = [
     content:
       "Great service, authentic medicines, and friendly staff. Highly recommended medical store!",
     author: "Fahad Siraj",
-    role: "Comman Customer",
+    role: "Common Customer",
     gradient: "from-purple-800 via-pink-700 to-red-500",
     backgroundImage: "./background-section3.png",
   },
