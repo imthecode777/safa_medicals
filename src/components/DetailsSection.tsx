@@ -170,7 +170,7 @@ const DetailsSection = () => {
                         {" "}
                         Service Uptime:
                       </span>{" "}
-                      6 days/week
+                      7 days/week
                     </div>
                   </div>
                 </div>

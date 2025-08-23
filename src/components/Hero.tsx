@@ -132,7 +132,7 @@ const Hero = () => {
               style={{ animationDelay: "0.7s" }}
             >
               <a
-                href="https://www.google.com/maps/search/?api=1&query=Safa+Medicals+Nadayara+Varkala"
+                href="https://maps.app.goo.gl/Z5qPVP3PQiWBcd259"
                 className="flex items-center justify-center group w-full sm:w-auto text-center"
                 style={{
                   backgroundColor: "transparent",
