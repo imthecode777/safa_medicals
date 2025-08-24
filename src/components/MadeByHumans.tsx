@@ -29,11 +29,13 @@ const MadeByHumans = () => {
               }}
             >
               <h2
-                style={{
-                  marginBottom: "-30px",
-                  padding: "0px 0px 100px",
-                }}
-                className="sm:text-5xl font-playfair text-white italic mt-0 mx-0 font-thin text-6xl md:text-7xl py-0 px-0 text-center lg:text-7xl"
+                className="
+    font-playfair italic text-white font-thin text-center 
+    text-3xl sm:text-4xl md:text-6xl lg:text-7xl 
+    mt-0 mx-0 
+    mb-4 sm:mb-6 md:mb-8 lg:mb-10
+    px-2 sm:px-4 md:px-0
+  "
               >
                 Where Your Health Comes First
               </h2>
