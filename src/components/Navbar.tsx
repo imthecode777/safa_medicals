@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { cn } from "@/lib/utils";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Home, Briefcase, Phone } from "lucide-react";
 
 const LOGO_SRC = "/logo.svg";
 
@@ -102,7 +102,7 @@ const Navbar = () => {
         )}
       >
         <nav
-          className="flex flex-col space-y-8 items-center mt-20 px-6"
+          className="flex flex-col items-center justify-center h-full space-y-10 px-6"
           aria-label="Mobile"
         >
           <a
