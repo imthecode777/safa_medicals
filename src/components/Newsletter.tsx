@@ -13,7 +13,7 @@ const Newsletter = () => {
     // Wait 1.5s before opening the link
     setTimeout(() => {
       window.open("https://g.page/r/Ccfue-L2IlIsEBE/review", "_blank");
-    }, 500);
+    }, 800);
   };
 
   return (
