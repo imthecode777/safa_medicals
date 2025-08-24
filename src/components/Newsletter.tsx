@@ -7,8 +7,13 @@ const Newsletter = () => {
   const handlePostReview = () => {
     toast({
       title: "Post a review",
-      description: "Review submission coming soon. Thanks for the support!"
+      description: "Redirecting you to Google reviews...",
     });
+
+    // Wait 1.5s before opening the link
+    setTimeout(() => {
+      window.open("https://g.page/r/Ccfue-L2IlIsEBE/review", "_blank");
+    }, 500);
   };
 
   return (
@@ -17,21 +22,30 @@ const Newsletter = () => {
         <div className="max-w-6xl mx-auto">
           <div className="flex items-center gap-4 mb-6">
             <div className="pulse-chip">
-              <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-pulse-500 text-white mr-2">05</span>
+              <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-pulse-500 text-white mr-2">
+                05
+              </span>
               <span>Support & Reviews</span>
             </div>
           </div>
-          
-          <h2 className="text-5xl font-display font-bold mb-4 text-left">Post a review</h2>
+
+          <h2 className="text-5xl font-display font-bold mb-4 text-left">
+            Post a review
+          </h2>
           <p className="text-xl text-gray-700 mb-10 text-left flex items-center gap-2">
             <Heart className="text-pulse-500" aria-hidden="true" />
             Show your support — share your feedback and help us improve.
           </p>
-          
+
           <div className="flex w-full">
-            <Button size="lg" className="w-full rounded-full" onClick={handlePostReview} aria-label="Post a review">
+            <Button
+              size="lg"
+              className="w-full rounded-full"
+              onClick={handlePostReview}
+              aria-label="Post a review"
+            >
               <MessageSquarePlus className="mr-2" aria-hidden="true" />
-              Post a review
+              Post a Review
             </Button>
           </div>
         </div>
